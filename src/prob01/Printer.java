@@ -2,7 +2,7 @@ package prob01;
 
 public class Printer {
 	
-	public void println(Object object){
+	public <T> void println(T object){
 		
 		System.out.println(object);
 	}
